@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vote</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Vote for Representative</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="survey.html">Survey</a>
+      <a href="candidates.html">Candidates</a>
+      <a href="vote.html">Vote</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Voting Form</h2>
+
+    <form>
+      <label for="voter">Voter Name:</label>
+      <input type="text" id="voter" name="voter">
+
+      <label for="flat">Flat Number:</label>
+      <input type="text" id="flat" name="flat">
+
+      <label for="candidate">Select Candidate:</label>
+      <select id="candidate" name="candidate">
+        <option>Amit Rao</option>
+        <option>Sneha Patel</option>
+        <option>Vikas Kumar</option>
+      </select>
+
+      <p>
+        <input type="checkbox" id="confirm" name="confirm">
+        <label for="confirm">I am a society member.</label>
+      </p>
+
+      <input type="submit" value="Submit Vote">
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Society Election System</p>
+  </footer>
+</body>
+</html>

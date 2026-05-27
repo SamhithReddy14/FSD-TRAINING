@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Society Survey</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="survey.html">Survey</a>
+      <a href="candidates.html">Candidates</a>
+      <a href="vote.html">Vote</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Member Survey Form</h2>
+
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name">
+
+      <label for="flat">Flat Number:</label>
+      <input type="text" id="flat" name="flat">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+
+      <label for="rating">Service Rating:</label>
+      <select id="rating" name="rating">
+        <option>Excellent</option>
+        <option>Good</option>
+        <option>Average</option>
+        <option>Poor</option>
+      </select>
+
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" name="feedback" rows="4"></textarea>
+
+      <input type="submit" value="Submit Survey">
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Society Election System</p>
+  </footer>
+</body>
+</html>
