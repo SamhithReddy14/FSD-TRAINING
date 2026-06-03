@@ -1,0 +1,21 @@
+.box {
+    width : 100px ;
+    height : 100px ;
+    background-color : blue ;
+    animation : anim 5s infinite alternate ;
+    position : relative ;
+    left : 0px ;
+}
+
+@keyframes anim {
+    0% {
+        background-color : blue ;
+        width : 100px ;
+        left : 0px ;
+    }
+    100% {
+        background-color : red ;
+        width : 400px ;
+        left : 400px ;
+    }
+}
