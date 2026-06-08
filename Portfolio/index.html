@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">My Portfolio</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section text-center">
+        <div class="container">
+            <img src="https://via.placeholder.com/180" class="rounded-circle mb-3" alt="Profile Photo">
+            <h1>Your Name</h1>
+            <h4>Web Developer</h4>
+            <p class="lead">I am a student interested in web development, programming and building simple projects.</p>
+            <a href="#" class="btn btn-primary">Download Resume</a>
+        </div>
+    </section>
+
+    <section id="about" class="container my-5">
+        <h2 class="text-center mb-4">About Me</h2>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Educational Details</h5>
+                        <p class="card-text">
+                            I am pursuing my degree in Computer Science and learning full stack development.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Career Objective</h5>
+                        <p class="card-text">
+                            My goal is to become a good software developer and work on real-time projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Personal Interests</h5>
+                        <p class="card-text">
+                            I like coding, designing websites, learning new technologies and problem solving.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Skills</h2>
+
+            <div class="mb-3">
+                <label class="form-label">HTML 90%</label>
+                <div class="progress">
+                    <div class="progress-bar bg-success" style="width: 90%;">90%</div>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">CSS 85%</label>
+                <div class="progress">
+                    <div class="progress-bar bg-info" style="width: 85%;">85%</div>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Bootstrap 80%</label>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" style="width: 80%;">80%</div>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">JavaScript 75%</label>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" style="width: 75%;">75%</div>
+                </div>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5>HTML</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5>CSS</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5>Bootstrap</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5>JavaScript</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container my-5">
+        <h2 class="text-center mb-4">Projects</h2>
+
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Student Portal</h5>
+                        <p class="card-text">A simple student portal using HTML, CSS and Bootstrap.</p>
+                        <p><span class="badge bg-primary">HTML</span> <span class="badge bg-success">CSS</span></p>
+                        <a href="#" class="btn btn-dark">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Course Registration</h5>
+                        <p class="card-text">Online course registration website with form validation.</p>
+                        <p><span class="badge bg-primary">Bootstrap</span></p>
+                        <a href="#" class="btn btn-dark">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Event Management</h5>
+                        <p class="card-text">College event website with events, schedule and gallery.</p>
+                        <p><span class="badge bg-warning">JavaScript</span></p>
+                        <a href="#" class="btn btn-dark">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Website</h5>
+                        <p class="card-text">Personal portfolio website to show skills and projects.</p>
+                        <p><span class="badge bg-info">Bootstrap</span></p>
+                        <a href="#" class="btn btn-dark">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Achievements</h2>
+
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5>Certifications</h5>
+                            <p>Completed HTML, CSS and Bootstrap certification.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5>Workshops</h5>
+                            <p>Attended full stack development workshop.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5>Internships</h5>
+                            <p>Completed a short web development internship.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5>Awards</h5>
+                            <p>Participated in coding contests and project expo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container my-5">
+        <h2 class="text-center mb-4">Contact Me</h2>
+
+        <div id="successMsg" class="alert alert-success d-none">
+            Message Sent Successfully!
+        </div>
+
+        <form id="contactForm">
+            <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Subject</label>
+                <input type="text" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+
+            <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal" data-bs-target="#infoModal">
+                Contact Info
+            </button>
+        </form>
+    </section>
+
+    <div class="modal fade" id="infoModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contact Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>Email: yourname@email.com</p>
+                    <p>Phone: +91 9876543210</p>
+                    <p>Location: Hyderabad, India</p>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2026 Personal Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
