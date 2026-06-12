@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basic Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.5;
+        }
+
+        button {
+            margin: 6px;
+            padding: 10px 14px;
+            cursor: pointer;
+        }
+
+        .box {
+            border: 1px solid #ccc;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Basic Practice</h1>
+    <p>Open the browser console, then click the buttons below.</p>
+
+    <div class="box">
+        <h2>Practice Topics</h2>
+        <button onclick="practiceCallback()">Callback</button>
+        <button onclick="practicePromiseSuccess()">Promise Success</button>
+        <button onclick="practicePromiseError()">Promise Error</button>
+        <button onclick="practiceAsyncAwait()">Async Await</button>
+        <button onclick="practiceSetTimeout()">setTimeout</button>
+        <button onclick="startCounter()">Start setInterval</button>
+        <button onclick="stopCounter()">Stop setInterval</button>
+    </div>
+
+    <div class="box">
+        <h2>Modules</h2>
+        <p>The module example runs automatically when this page loads.</p>
+    </div>
+
+    <script src="callbacks.js"></script>
+    <script src="promises.js"></script>
+    <script src="async-await.js"></script>
+    <script src="timers.js"></script>
+    <script type="module" src="modules/app.js"></script>
+</body>
+</html>
